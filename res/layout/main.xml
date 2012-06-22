@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Click to modify. Long press for delete."
+    />
+	<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:baselineAligned="true">
+	    <LinearLayout android:orientation="vertical" android:layout_weight="1" android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:layout_width="fill_parent">
+			<GridView android:id="@+id/gridAirplanes"
+				    android:columnWidth="80dp"
+				    android:numColumns="auto_fit"
+				    android:verticalSpacing="6dp"
+				    android:horizontalSpacing="6dp"
+				    android:stretchMode="columnWidth"
+				    android:gravity="center" 
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent" android:layout_weight=".7"/>
+			<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content">
+		        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_weight="1" android:layout_width="fill_parent" android:text="..." android:layout_height="wrap_content" android:id="@+id/flightsLabel" android:paddingLeft="3dp">></TextView>
+		    </LinearLayout>
+		    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:layout_height="fill_parent" android:layout_weight=".8" >
+			    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:layout_height="fill_parent" android:padding="3dp" android:layout_weight="1">
+			        <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout6" android:layout_height="wrap_content">
+				        <TextView android:layout_weight=".4" android:layout_width="fill_parent" android:text="Flights" android:layout_height="wrap_content" android:id="@+id/itemTime"></TextView>
+				        <TextView android:layout_weight=".6" android:layout_width="fill_parent" android:text="Passengers" android:layout_height="wrap_content" android:id="@+id/itemInfo" android:gravity="right"></TextView>
+				    </LinearLayout>
+			        <ListView android:id="@+id/listFlights" android:layout_height="fill_parent" android:layout_weight=".9" android:layout_width="fill_parent"></ListView>
+				</LinearLayout>
+				<Button android:text="New Flight" android:id="@+id/button1Add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="newFlight"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout7" android:layout_height="fill_parent" android:baselineAligned="true" android:layout_width="wrap_content">
+	        <LinearLayout android:id="@+id/linearLayout8" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content" android:layout_weight="1">
+	            <Button android:text="New Plane" android:id="@+id/button1Add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="newAirplane"></Button>
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/linearLayout9" android:layout_width="fill_parent" android:orientation="vertical" android:layout_weight="1" android:layout_height="wrap_content" android:layout_gravity="bottom">
+	            <Button android:layout_width="fill_parent" android:id="@+id/buttonCommit" android:text="Commit" android:layout_gravity="bottom" android:layout_weight="1" android:layout_height="0dp" android:onClick="saveAirplanes"></Button>
+	            <Button android:id="@+id/button1" android:text="Rollback" android:layout_weight="1" android:layout_height="0dp" android:layout_width="fill_parent" android:onClick="cancelChanges"></Button>
+	        </LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

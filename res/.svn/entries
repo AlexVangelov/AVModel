@@ -1,0 +1,43 @@
+10
+
+dir
+41
+http://alexbox/svn/repo/android/AVModel/res
+http://alexbox/svn/repo
+
+
+
+2011-08-30T14:26:41.478016Z
+41
+alex
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+be140b50-61a8-42f6-a239-c8f908224b0a
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+values
+dir
+

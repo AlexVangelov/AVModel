@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2">
+        <ImageView android:src="@drawable/passenger" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:padding="3dp"></ImageView>
+    	<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical">
+	        <TextView android:layout_weight=".3" android:text="Passenger name" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/itemPassenger" android:layout_width="fill_parent"></TextView>
+	        <TextView android:layout_width="wrap_content" android:text="Service name" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/itemService"></TextView>
+	    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

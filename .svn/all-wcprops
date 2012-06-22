@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/repo/!svn/ver/41/android/AVModel
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/repo/!svn/ver/31/android/AVModel/default.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/repo/!svn/ver/43/android/AVModel/AndroidManifest.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/repo/!svn/ver/31/android/AVModel/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/repo/!svn/ver/31/android/AVModel/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/repo/!svn/ver/31/android/AVModel/.classpath
+END

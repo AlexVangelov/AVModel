@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/repo/!svn/ver/38/android/AVModel/src/com/vangelov/avmodel
+END
+PassengerModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repo/!svn/ver/31/android/AVModel/src/com/vangelov/avmodel/PassengerModel.java
+END
+AirplanesAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repo/!svn/ver/31/android/AVModel/src/com/vangelov/avmodel/AirplanesAdapter.java
+END
+AirportDemoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/repo/!svn/ver/47/android/AVModel/src/com/vangelov/avmodel/AirportDemoActivity.java
+END
+FlightsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repo/!svn/ver/47/android/AVModel/src/com/vangelov/avmodel/FlightsAdapter.java
+END
+FlightModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repo/!svn/ver/31/android/AVModel/src/com/vangelov/avmodel/FlightModel.java
+END
+AirplaneModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repo/!svn/ver/31/android/AVModel/src/com/vangelov/avmodel/AirplaneModel.java
+END
+AirportDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repo/!svn/ver/45/android/AVModel/src/com/vangelov/avmodel/AirportDatabase.java
+END
+PassengersAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repo/!svn/ver/47/android/AVModel/src/com/vangelov/avmodel/PassengersAdapter.java
+END
+ServiceModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repo/!svn/ver/31/android/AVModel/src/com/vangelov/avmodel/ServiceModel.java
+END

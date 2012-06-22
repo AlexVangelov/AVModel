@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/repo/!svn/ver/37/android/AVModel/res/layout
+END
+edit_a_passenger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/repo/!svn/ver/44/android/AVModel/res/layout/edit_a_passenger.xml
+END
+passenger_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/repo/!svn/ver/45/android/AVModel/res/layout/passenger_item.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/repo/!svn/ver/37/android/AVModel/res/layout/main.xml
+END
+grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/repo/!svn/ver/31/android/AVModel/res/layout/grid_item.xml
+END
+passangers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/repo/!svn/ver/36/android/AVModel/res/layout/passangers.xml
+END
+edit_passengers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repo/!svn/ver/45/android/AVModel/res/layout/edit_passengers.xml
+END
+edit_a_date.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repo/!svn/ver/33/android/AVModel/res/layout/edit_a_date.xml
+END
+flight_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repo/!svn/ver/42/android/AVModel/res/layout/flight_item.xml
+END
+edit_a_string.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/repo/!svn/ver/33/android/AVModel/res/layout/edit_a_string.xml
+END

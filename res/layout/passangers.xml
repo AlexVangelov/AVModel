@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+  <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Spinner android:layout_width="wrap_content" android:id="@+id/spinnerPlane" android:layout_height="wrap_content" android:layout_weight=".2"></Spinner>
+     	<Spinner android:layout_width="wrap_content" android:id="@+id/spinnerFlight" android:layout_height="wrap_content" android:layout_weight=".3"></Spinner>
+     	<EditText android:id="@+id/editText1" android:layout_weight=".5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:inputType="textPersonName" android:layout_gravity="center_vertical">
+     		<requestFocus></requestFocus>
+     	</EditText>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/linearLayout10" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+        <ListView android:id="@+id/listPassengers" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="3dp"></ListView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout4" android:layout_height="fill_parent" android:baselineAligned="true" android:layout_width="wrap_content">
+	        <LinearLayout android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content" android:layout_weight="1">
+	            <Button android:text="Add New" android:id="@+id/button1Add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="addNewPassenger"></Button>
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/linearLayout6" android:layout_width="fill_parent" android:orientation="vertical" android:layout_weight="1" android:layout_height="wrap_content" android:layout_gravity="bottom">
+	            <Button android:layout_width="fill_parent" android:id="@+id/buttonCommit" android:text="Commit" android:layout_gravity="bottom" android:layout_weight="1" android:layout_height="0dp" android:onClick="saveFlight"></Button>
+	            <Button android:id="@+id/button1" android:text="Rollback" android:layout_weight="1" android:layout_height="0dp" android:layout_width="fill_parent" android:onClick="cancelChanges"></Button>
+	        </LinearLayout>
+		</LinearLayout> 
+   </LinearLayout> 
+</LinearLayout>
