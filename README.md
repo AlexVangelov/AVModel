@@ -1,10 +1,10 @@
 # AVModel
 
-![Planes](AVModel/raw/master/planes.png)
-![Edit Plane](AVModel/raw/master/edit_plane.png)
-![Edit Flight](AVModel/raw/master/edit_flight.png)
-![Passengers](AVModel/raw/master/passengers.png)
-![Edit Passenger](AVModel/raw/master/edit_passenger.png)
+![Planes](raw/master/planes.png)
+![Edit Plane](raw/master/edit_plane.png)
+![Edit Flight](raw/master/edit_flight.png)
+![Passengers](raw/master/passengers.png)
+![Edit Passenger](raw/master/edit_passenger.png)
 
 ## Scenario
 
