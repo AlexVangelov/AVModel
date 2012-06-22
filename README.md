@@ -2,8 +2,8 @@
 
 ![Planes](raw/master/planes.png)
 ![Edit Plane](raw/master/edit_plane.png)
-![Edit Flight](raw/master/edit_flight.png)
-![Passengers](raw/master/passengers.png)
+![Edit Flight](raw/master/edit_flights.png)
+![Passengers](raw/master/passangers.png)
 ![Edit Passenger](raw/master/edit_passenger.png)
 
 ## Scenario
