@@ -1,5 +1,11 @@
 # AVModel
 
+![Planes](planes.png)
+![Edit Plane](edit_plane.png)
+![Edit Flight](edit_flight.png)
+![Passengers](passengers.png)
+![Edit Passenger](edit_passenger.png)
+
 ## Scenario
 
 Let's have an Airport
@@ -14,7 +20,7 @@ And now let's play with all this data and `Commit` and save it, or `Rollback` at
 Add `src/com/vangelov/sqlite/AVModel.java` to your project.
 	
 Create AirplaneModel.java
-	`
+	<code>
 	public class AirplaneModel extends AVModel {
 		public AirplaneModel() {}
 		public AirplaneModel(SQLiteDatabase db) { super(db); }
@@ -27,9 +33,9 @@ Create AirplaneModel.java
 			setHasMany("flights", FlightModel.class, "AIRPLANE_ID");
 		}
 	}
-	`
+	</code>
 Create FlightModel.java
-	`
+	<code>
 	public class FlightModel extends AVModel {
 		public FlightModel() {}
 		public FlightModel(SQLiteDatabase db) { super(db); }
@@ -43,9 +49,9 @@ Create FlightModel.java
 			setHasMany("passengers", PassengerModel.class, "FLIGHT_ID");
 		}
 	}
-	`
+	</code>
 Create PassengerModel.java
-	`
+	<code>
 	public class PassengerModel extends AVModel {
 		public PassengerModel() {}
 		public PassengerModel(SQLiteDatabase db) { super(db); }
@@ -59,9 +65,9 @@ Create PassengerModel.java
 			setBelongsTo("service", ServiceModel.class, "SERVICE_ID");
 		}
 	}
-	`
+	</code>
 Create ServiceModel.java
-	`
+	<code>
 	public class ServiceModel extends AVModel {
 		public ServiceModel() {}
 		public ServiceModel(SQLiteDatabase db) { super(db); }
@@ -72,7 +78,7 @@ Create ServiceModel.java
 		@Override
 		public void setRelations() { }
 	}
-	`
+	</code>
 # How to get a collection of all Airplanes:
 	private AirplaneModel airplaneModel;
 	private SQLCollection airplanes;
