@@ -14,6 +14,7 @@ And now let's play with all this data and `Commit` and save it, or `Rollback` at
 Add `src/com/vangelov/sqlite/AVModel.java` to your project.
 	
 Create AirplaneModel.java
+	`
 	public class AirplaneModel extends AVModel {
 		public AirplaneModel() {}
 		public AirplaneModel(SQLiteDatabase db) { super(db); }
@@ -26,8 +27,9 @@ Create AirplaneModel.java
 			setHasMany("flights", FlightModel.class, "AIRPLANE_ID");
 		}
 	}
-	
+	`
 Create FlightModel.java
+	`
 	public class FlightModel extends AVModel {
 		public FlightModel() {}
 		public FlightModel(SQLiteDatabase db) { super(db); }
@@ -41,8 +43,9 @@ Create FlightModel.java
 			setHasMany("passengers", PassengerModel.class, "FLIGHT_ID");
 		}
 	}
-	
+	`
 Create PassengerModel.java
+	`
 	public class PassengerModel extends AVModel {
 		public PassengerModel() {}
 		public PassengerModel(SQLiteDatabase db) { super(db); }
@@ -56,8 +59,9 @@ Create PassengerModel.java
 			setBelongsTo("service", ServiceModel.class, "SERVICE_ID");
 		}
 	}
-	
+	`
 Create ServiceModel.java
+	`
 	public class ServiceModel extends AVModel {
 		public ServiceModel() {}
 		public ServiceModel(SQLiteDatabase db) { super(db); }
@@ -68,7 +72,7 @@ Create ServiceModel.java
 		@Override
 		public void setRelations() { }
 	}
-	
+	`
 # How to get a collection of all Airplanes:
 	private AirplaneModel airplaneModel;
 	private SQLCollection airplanes;
@@ -111,12 +115,12 @@ Create ServiceModel.java
 	public SQLRow find_one(String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy);
 	
 	
-# class SQLRow extends HashMap<String, Object> with additional methods:
+# class SQLRow extends `HashMap<String, Object>` with additional methods:
 	public Object getRelation(String key,boolean reload);
 	public int remove();
 	public int save(); 
 
-# class SQLCollection extends ArrayList<SQLRow>	with additional methods:
+# class SQLCollection extends `ArrayList<SQLRow>` with additional methods:
 	public void save();
 	public void clear(boolean includeRelatedCollections);
 	public boolean remove(Object object,boolean includeRelatedCollections);
